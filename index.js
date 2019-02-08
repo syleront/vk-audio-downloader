@@ -50,7 +50,12 @@ function auth(login, password) {
 				});
 			})();
 		} else {
-			console.log(e);
+			if (e.code == 3) {
+				console.log("Incorrect login or password".color("red"));
+				console.log("Maybe you forgot to configure config.json?");
+			} else {
+				console.log(e);
+			}
 		}
 	});
 }

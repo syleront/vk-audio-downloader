@@ -1,6 +1,6 @@
 module.exports = {
 	init: () => {
-		String.prototype.color = (color) => {
+		String.prototype.color = function (color) {
 			let colors = {
 				green: "\x1b[32m",
 				red: "\x1b[31m",
