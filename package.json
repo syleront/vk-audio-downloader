@@ -4,7 +4,7 @@
   "description": "Utilite for download music from vk.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js"
   },
   "author": "Syleront",
   "license": "ISC",
