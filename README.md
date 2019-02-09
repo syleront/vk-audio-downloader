@@ -2,15 +2,15 @@
 Утилита для скачивания музыки из вашего аккаунта в ВК.
 
 ## Что она делает?
-Выкачивает всю вашу музыку из основного плейлиста одним кликом. Найстройте, запустите и ждите.
+Выкачивает всю вашу музыку из основного плейлиста одним кликом. Настройте, запустите и ждите.
 
 ## Сборка вручную и запуск
 У вас должен быть установлен **git** и **node.js**
-```sh
-$ git clone https://github.com/syleront/vk-audio-downloader.git
-$ cd vk-audio-downloader-master
-$ npm install
-$ npm run start
+```cmd
+git clone https://github.com/syleront/vk-audio-downloader.git
+cd vk-audio-downloader-master
+npm install
+npm run start
 ```
 
 ## Настройка
